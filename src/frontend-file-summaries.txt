@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the Home page without routing.",
+  "frontend/src/pages/Home.tsx": "Home page component that composes Header, Hero, About, ContactForm, and Footer sections into a complete landing page.",
+  "frontend/src/components/Header.tsx": "Sticky header component with logo, navigation menu, and responsive mobile menu with smooth scroll functionality.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, logo, headline, tagline, and call-to-action button.",
+  "frontend/src/components/About.tsx": "About section featuring company mission, four feature cards with icons, and detailed mission statement.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with name, email, and message fields, validation, submission handling, and success/error states.",
+  "frontend/src/components/Footer.tsx": "Footer component with branding, quick links, contact info, copyright, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useContactForm.ts": "Custom hook managing contact form submission logic, validation, error handling, and backend integration.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching contact form data from the backend (getAllForms and getAllFormsByEmail).",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring warm earthy tones with teal primary and amber accents for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color palette, typography, border radius, shadows, and animation settings."
+}

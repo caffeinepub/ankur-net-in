@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor implementing a contact form backend with CRUD operations (create, getAllForms, getAllFormsByEmail, delete) using a Map to store form submissions with auto-incrementing IDs.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features documented.",
+  "frontend-file-summaries.txt": "JSON-formatted summary document listing all frontend files with brief descriptions of their purpose and functionality.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark themes, defining design tokens for backgrounds, borders, charts, and sidebar components.",
+  "frontend/index.html": "HTML entry point that loads the React application from /src/main.tsx with basic meta tags and title 'ankur.net.in'.",
+  "frontend/src/App.tsx": "Root React component that wraps the Home page with QueryClientProvider for React Query integration.",
+  "frontend/src/components/About.tsx": "About section component displaying four feature cards (Technical Excellence, Innovation, Fast Delivery, Client Focused) and a mission statement card.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with name, email, and message inputs, form validation, submission handling via useContactForm hook, and success/error message display.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand logo, quick navigation links, contact info, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, desktop/mobile navigation menus, smooth scroll functionality, and responsive mobile menu toggle.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, centered logo, headline with 'Ankur' branding, tagline, and call-to-action button that scrolls to contact form.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useContactForm.ts": "Custom hook for contact form submission that validates email format, calls the backend actor's createForm method, and manages submission state and errors using React Query mutations.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Comprehensive Internet Identity authentication provider and hook that manages AuthClient lifecycle, identity state, login/logout flows, and provides authentication status throughout the React component tree.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching contact form data: useGetAllForms retrieves all forms and useGetAllFormsByEmail retrieves forms filtered by email, both dependent on the actor being available.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom design tokens defining a warm, earthy color palette with teal and amber accents, supporting both light and dark modes using OKLCH color space.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the App component into the root DOM element.",
+  "frontend/src/pages/Home.tsx": "Home page component that composes the main landing page layout with Header, Hero, About, ContactForm, and Footer components in a flex column structure.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom fonts (Inter, Cal Sans), OKLCH-based color system, container settings, custom shadows, and accordion animations, plus typography and container query plugins.",
+  "project_state.json": "Project state document tracking a web-based support chatbot ticketing system with existing features for homepage, contact form, about section, theming, ticket management, admin dashboard, and Internet Identity authentication."
+}

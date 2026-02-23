@@ -1,0 +1,19 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-23T12:57:51.589Z",
+  "summary": "The diff shows only a modification to project_state.json, which is a metadata/tracking file. REQ-11 explicitly requires retrying deployment without modifying any code files. The diff contains no evidence of deployment actions (e.g., deployment logs, configuration changes, or deployment artifacts). The requirement is to perform a deployment operation, not to modify project tracking files.",
+  "missing_requirements": [
+    {
+      "id": "REQ-11",
+      "requirement": "Retry deployment of the current application state without making any code changes",
+      "reason": "No evidence of deployment attempt or completion. The diff only shows project_state.json changes, which is a metadata file. Acceptance criteria require: deployment completion, functional features post-deployment, successful backend canister deployment, and accessible frontend assets. None of these deployment outcomes are evidenced in the diff.",
+      "evidence": []
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.95,
+  "changed_files": [
+    "project_state.json"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Retry deployment with current codebase",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Retry deployment of the current application state without making any code changes",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "and retry for deployment"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Deployment completes successfully",
+        "All existing features remain functional after deployment",
+        "Backend canister deploys without errors",
+        "Frontend assets deploy and are accessible"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any existing code files",
+    "Preserve all current functionality",
+    "Maintain existing Internet Identity integration",
+    "Keep current backend actor structure intact"
+  ],
+  "nonGoals": [
+    "Adding new features",
+    "Refactoring existing code",
+    "Changing any component implementations",
+    "Modifying the visual theme or styling"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
